@@ -9,14 +9,13 @@ import TimelineD from "./TimelineD";
 
 const Wrapper = styled.main`
   flex-grow: 1;
-  background: orange;
 `;
 
 const Nav = styled.nav`
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  background: blue;
+  background: darkgray;
   color: white;
 `;
 

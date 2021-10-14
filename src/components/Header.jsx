@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 
 const Wrapper = styled.header`
-  background-color: blue;
+  background-color: darkgray;
   color: white;
   padding: 40px;
   flex-shrink: 0;

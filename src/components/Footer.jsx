@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 
 const Wrapper = styled.footer`
-  background-color: blue;
+  background-color: darkgray;
   color: white;
   padding: 30px;
   display: flex;
