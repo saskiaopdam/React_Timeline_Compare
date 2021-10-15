@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 
 import styled from "styled-components/macro";
 
+import Timeline0 from "./Timeline0";
 import TimelineA from "./TimelineA";
 import TimelineB from "./TimelineB";
 import TimelineC from "./TimelineC";
@@ -34,6 +35,9 @@ function Main() {
       <Router>
         <Nav>
           <Li>
+            <StyledLink to="/0">Timeline 0</StyledLink>
+          </Li>
+          <Li>
             <StyledLink to="/A">Timeline A</StyledLink>
           </Li>
           <Li>
@@ -48,6 +52,7 @@ function Main() {
         </Nav>
 
         <Switch>
+          <Route path="/0" component={Timeline0}></Route>
           <Route path="/A" component={TimelineA}></Route>
           <Route path="/B" component={TimelineB}></Route>
           <Route path="/C" component={TimelineC}></Route>

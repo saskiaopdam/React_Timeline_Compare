@@ -12,6 +12,10 @@ const Title = styled.h2`
   text-align: center;
 `;
 
+const SubTitle = styled.h3`
+  text-align: center;
+`;
+
 const Main = styled.main`
   padding: 20px;
 `;
@@ -25,6 +29,7 @@ function TimelineD() {
     <Wrapper>
       <Header>
         <Title>Timeline D</Title>
+        <SubTitle>react-vertical-timeline-component</SubTitle>
       </Header>
       <Main>
         <Paragraph>Example of Timeline D</Paragraph>
